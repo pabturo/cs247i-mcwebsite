@@ -1,0 +1,124 @@
+html { scroll-behavior: smooth; } 
+
+h1, .section-header, .primary-color {
+    color: #2e3686;
+    font-family: 'Bai+Jamjuree', sans-serif;
+}
+
+h2, h3, h4 {
+    color: #8c7ecf;
+    font-family: 'Bai+Jamjuree', sans-serif;
+}
+
+h4 {
+    margin-top: 1.5em;
+}
+
+p {
+    font-family: 'Bai+Jamjuree', sans-serif;
+}
+
+a {
+    color: #8c7ecf;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+a:hover,
+a:focus {
+    color: #fbcd43;
+}
+
+#figmacontent {
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#backgroundinfo {
+    overflow-y:  auto;
+    height: 80vh;
+}
+
+#siteNav {
+    background-color: #2e3686;
+    font-family: 'Bai+Jamjuree', sans-serif;
+    color: white;
+}
+
+#menu-button {
+    text-decoration: underline;
+}
+
+@media(min-width:768px) {
+   
+    .navbar-default .navbar-header .navbar-brand {
+        color: rgba(255,255,255);
+        letter-spacing: 0.5em;
+    }
+
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus,
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover,
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #8c7ecf;
+}
+
+.nav-item {
+font-family: 'Bai+Jamjuree', sans-serif;
+font-weight: bold;
+font-size: 1.5em;
+color: white;
+}
+
+
+.fa {
+padding: 0.75em;
+font-size: 0.75em;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+
+.headshot {
+border-radius: 50%;
+width: 15em;
+height: 15em;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-link {
+background: grey;
+color: white;
+}
