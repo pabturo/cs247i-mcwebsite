@@ -43,3 +43,11 @@ function scrollToDunbar() {
 function scrollToFacts() {
 	scrollTo("#facts")
 }
+
+function scrollToNumbersToCall() {
+	scrollTo("#numbersToCall")
+}
+
+function scrollToManagingLoneliness() {
+	scrollTo("#managingLoneliness")
+}

@@ -17,6 +17,9 @@ h4 {
 p {
     font-family: 'Bai+Jamjuree', sans-serif;
 }
+li {
+    font-family: 'Bai+Jamjuree', sans-serif;
+}
 
 a {
     color: #8c7ecf;
@@ -47,6 +50,7 @@ a:focus {
     background-color: #2e3686;
     font-family: 'Bai+Jamjuree', sans-serif;
     color: white;
+    height: 70px;
 }
 
 #menu-button {
@@ -78,7 +82,8 @@ a:focus {
 
 .nav-item {
 font-family: 'Bai+Jamjuree', sans-serif;
-font-weight: bold;
+/* font-weight: bold; */
+letter-spacing: 0.1em;
 font-size: 1.5em;
 color: white;
 }
